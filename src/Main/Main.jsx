@@ -21,8 +21,8 @@ const { heading, text } = emptyTexts;
 
 
 export const Main = () => {
-  // Extract the state to render or not the loading components
-  const { isLoading, recipes, currentRecipe, originalRecipes } = useStore();
+  // Extract the state to render or not the loading components!
+  const { isLoading, recipes, currentRecipe, originalRecipes } = useStore()
 
   const { getData, error } = useFetch()
 
