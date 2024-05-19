@@ -45,7 +45,7 @@ export const AppRouter = () => {
             ]
         }
 
-    ], { basename: "/foodima/" })
+    ])
     
     // { basename: "/foodima/" }
 
